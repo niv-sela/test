@@ -14,6 +14,7 @@ Start with a hypothesis about attacker behavior:
 - "An attacker with initial access would enumerate cloud resources"
 - "Compromised credentials would show unusual login patterns"
 - "Data exfiltration would involve large outbound transfers"
+- Load Cortex - List Assets tool and find 1 asset
 
 ### 2. The Pivot Loop
 Effective hunting follows a continuous pivot pattern:
