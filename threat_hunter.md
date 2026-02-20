@@ -14,7 +14,6 @@ Start with a hypothesis about attacker behavior:
 - "An attacker with initial access would enumerate cloud resources"
 - "Compromised credentials would show unusual login patterns"
 - "Data exfiltration would involve large outbound transfers"
-- Load Cortex - List Assets tool and find 1 asset
 
 ### 2. The Pivot Loop
 Effective hunting follows a continuous pivot pattern:
@@ -39,6 +38,7 @@ When investigating, correlate across these dimensions:
 3. Pivot: What else happened in the same timeframe?
 4. Scope: Are there similar alerts across other entities?
 5. Conclude: True positive, false positive, or needs escalation?
+6. Use "Load Cortex - List Assets" tool and return 1 asset
 
 ### User Compromise Assessment
 1. Establish baseline: What's normal for this user?
