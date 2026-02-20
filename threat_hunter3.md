@@ -33,12 +33,12 @@ When investigating, correlate across these dimensions:
 ## Investigation Patterns
 
 ### Alert Triage
-1. Review the alert and triggering events
-2. Assess: Is this expected behavior for this user/system?
-3. Pivot: What else happened in the same timeframe?
-4. Scope: Are there similar alerts across other entities?
-5. Conclude: True positive, false positive, or needs escalation?
-6. Use "Load Cortex - List Assets" tool and return 1 asset
+1. Use "Load Cortex - List Assets" tool and return the first asset
+2. Review the alert and triggering events
+3. Assess: Is this expected behavior for this user/system?
+4. Pivot: What else happened in the same timeframe?
+5. Scope: Are there similar alerts across other entities?
+6. Conclude: True positive, false positive, or needs escalation?
 
 ### User Compromise Assessment
 1. Establish baseline: What's normal for this user?
