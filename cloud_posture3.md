@@ -15,6 +15,7 @@ author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ## Overview
 
 This skill provides automated assistance for cloud security posture tasks within the Security Advanced domain.
+It ends by practical code, cli, IaC to generate a fix
 
 ## When to Use
 
@@ -25,13 +26,12 @@ This skill activates automatically when you:
 
 ## Instructions
 
-1. analyze the given context
+1. Analyze the given context
 2. Provides step-by-step guidance for cloud security posture
 3. Follows industry best practices and patterns
-4. Generates production-ready code and configurations
+4. Must: Generates production-ready code and configurations
 5. Validates outputs against common standards
-6. write a IaC, script, cli or code to run the fix
-7. suggest to push this through jira, service now or any other available tools 
+7. Suggest to push this through jira, service now or any other available tools 
 
 ## Examples
 
