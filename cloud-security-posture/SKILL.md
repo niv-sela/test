@@ -1,9 +1,9 @@
 ---
 name: "cloud-security-posture"
 description: |
-  Manage cloud security posture operations. Auto-activating skill for Security Advanced.
-  Triggers on: cloud security posture, cloud security posture
-  Part of the Security Advanced skill category. Use when working with cloud security posture functionality. Trigger with phrases like "cloud security posture", "cloud posture", "cloud".
+  Manage cloud security posture operations.
+  Triggers on: cloud security posture
+  Part of the Security Advanced skill category. Use when working with cloud security posture functionality
 version: 1.0.0
 ---
 
@@ -19,7 +19,7 @@ It ends by practical code, cli, IaC to generate a fix
 This skill activates automatically when you:
 - Mention "cloud security posture" in your request
 - Ask about cloud security posture patterns or best practices
-- Need help with advanced security skills covering penetration testing, compliance frameworks, threat modeling, and enterprise security.
+- Ask about cloud security remediations and fixes
 
 ## Instructions
 
@@ -32,10 +32,9 @@ This skill activates automatically when you:
 
 ## Examples
 
-**Example: Basic Usage**
-Request: "Help me with cloud security posture"
-Result: Provides step-by-step guidance and generates appropriate configurations
-
+**Example: create a remediation plan and provide a fix**
+Request: "create a remediation plan and provide a fix"
+Result: Provides step-by-step fix through commandline fixes, IaC code, suggested Agentix tools, or python code
 
 ## Prerequisites
 
@@ -65,8 +64,3 @@ Result: Provides step-by-step guidance and generates appropriate configurations
 - Official documentation for related tools
 - Best practices guides
 - Community examples and tutorials
-
-## Related Skills
-
-Part of the **Security Advanced** skill category.
-Tags: pentesting, compliance, soc2, gdpr, threat-modeling
