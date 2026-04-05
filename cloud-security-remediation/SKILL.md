@@ -1,5 +1,5 @@
 ---
-name: "cloud-security-remediation"
+name: "cloud-security-remediations"
 description: |
   Manage cloud security posture incidents, remediations and fixes.
   Triggers on: cloud security posture
@@ -24,7 +24,9 @@ This skill activates automatically when you:
 ## Instructions
 
 1. Asset and Permission Analysis: Analyze the provided case context to identify all related assets, including the main asset id and any associated IAM policies and permissions.
-2. Asset ID Retrieval (XQL): Obtain all relevant asset IDs by querying the asset_inventory dataset using XQL. The query will look like this:
+2. Asset ID Retrieval (XQL): Run a recursive XQL query process to get all the relevant assets based on their relations. 
+For users & identities, stop when you find the policies and their actual statements.
+Obtain all relevant asset IDs by querying the asset_inventory dataset using XQL. The query will look like this:
 
 dataset = asset_inventory
 | filter xdm.asset.id in ("<asset_id1>", "<asset_id2>")
@@ -37,9 +39,9 @@ If new asset IDs are discovered, particularly those related to policies, roles, 
 * Loop Condition: Repeat the "Execute XQL Query" and "Analyze Query Results for New Assets" steps until no new, relevant asset IDs are identified. 
 This ensures a comprehensive understanding of the privilege chain.
 
-4. Remediation Plan Development: Based on industry best practices and patterns, develop a remediation plan that includes generating production-ready code and configurations.
-5. Output Validation: Validate all generated outputs against common security standards.
-6. Integration with Ticketing Systems: Suggest pushing the remediation plan and any related tasks through existing ticketing systems like Jira or ServiceNow for tracking and implementation."
+3. Remediation Plan Development: Based on industry best practices and patterns, develop a remediation plan that includes generating production-ready code and configurations.
+4. Output Validation: Validate all generated outputs against common security standards.
+5. Integration with Ticketing Systems: Suggest pushing the remediation plan and any related tasks through existing ticketing systems like Jira or ServiceNow for tracking and implementation."
 
 ## Examples
 
