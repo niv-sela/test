@@ -4,10 +4,7 @@ description: |
   Manage cloud security posture operations. Auto-activating skill for Security Advanced.
   Triggers on: cloud security posture, cloud security posture
   Part of the Security Advanced skill category. Use when working with cloud security posture functionality. Trigger with phrases like "cloud security posture", "cloud posture", "cloud".
-allowed-tools: "Jira", "ServiceNow", "Slack", "SendEmail", "Cortex - List Vulnerability Issues", "Cortex - List Cases", "Cortex - List Assets", "Cortex - List Vulnerability Issues", "InvokeLLM"
 version: 1.0.0
-license: MIT
-author: "Jeremy Longshore <jeremy@intentsolutions.io>"
 ---
 
 # Cloud Security Posture
