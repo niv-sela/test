@@ -1,5 +1,5 @@
 ---
-name: "cloud-security-posture"
+name: "cloud-security"
 description: |
   Manage cloud security posture operations.
   Triggers on: cloud security posture
